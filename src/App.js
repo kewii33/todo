@@ -1,25 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import 'App.css';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app-style">
+      <div className="memoBox">
+        <div className="title">할 일 목록</div>
+        <div className="todoList">
+          <div className="todoItem">
+            <label>
+              <input type="checkbox" className="todoCheck"></input>
+            </label>
+            나는 투두야
+          </div>
+        </div>
+      </div>
     </div>
   );
-}
+};
 
 export default App;
