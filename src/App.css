@@ -1,35 +1,183 @@
 .app-style {
-  width: 100%;
-  height: 100vh;
+  width: 1200px;
+  height: 800px;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #eee;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0px;
 }
 
-.memoBox {
-  width: 400px;
-  height: 600px;
-  background-color: white;
-  box-shadow: 0px 25px 100px -60px rgba(0, 0, 0, 0.18);
+.header {
+  width: 1200px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-top: 0;
 }
 
 .title {
-  margin: 0;
-  padding: 15px 25px;
+  margin-left: 20px;
+  font-weight: bold;
+}
+
+.usedToolName {
+  margin-right: 20px;
+  font-weight: bold;
+}
+
+.addTodoListFormBox {
+  width: 1200px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  background-color: #eee;
+  border-radius: 10px;
+  justify-content: space-between;
+}
+
+.inputForms {
+  display: flex;
+  flex-direction: row;
+}
+
+.titleTodo {
+  margin-left: 20px;
+  height: 35px;
   font-weight: bold;
   font-size: 1.2em;
 }
 
-.todoItem {
-  display: flex;
-  align-items: center;
-  padding: 15px 25px;
-  width: 100%;
-  /* font-size: 1.2em; */
-  border-bottom: 1px solid #eee;
+.titleInput {
+  margin-left: 15px;
+  width: 200px;
+  height: 35px;
+  border: none;
+  border-radius: 5px;
 }
 
-.todoCheck {
-  margin-right: 15px;
+.contentTodo {
+  margin-left: 20px;
+  height: 35px;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.contentInput {
+  margin-left: 15px;
+  width: 200px;
+  height: 35px;
+  border: none;
+  border-radius: 5px;
+}
+
+.addButton {
+  margin-right: 30px;
+  padding: 10px 50px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  background-color: green;
+}
+
+.workingTodo {
+  width: 1200px;
+}
+
+.workingTodoTitle {
+  width: 1200px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+  font-size: 1.2em;
+}
+
+.workingTodoContent {
+  width: 1200px;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.doneTodo {
+  width: 1200px;
+}
+
+.doneTodoTitle {
+  width: 1200px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+  font-size: 1.2em;
+}
+
+.doneTodoContent {
+  width: 1200px;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.component-style {
+  width: 300px;
+  height: 200px;
+  border: 4px solid green;
+  border-radius: 8px;
+  margin-left: 30px;
+}
+
+.componentTitle {
+  padding-left: 20px;
+  padding-top: 20px;
+  font-size: 1.2em;
+}
+
+.componentContent {
+  padding-left: 30px;
+  padding-top: 20px;
+}
+
+.workingButtons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10px;
+  margin-top: 35px;
+}
+
+.deleteButton {
+  width: 120px;
+  height: 35px;
+  border: 3px solid red;
+  border-radius: 5px;
+}
+
+.doneButton {
+  width: 120px;
+  height: 35px;
+  margin-left: 5px;
+  border: 3px solid green;
+  border-radius: 5px;
+}
+
+.doneButtoms {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10px;
+  margin-top: 35px;
+}
+
+.cancelButton {
+  width: 120px;
+  height: 35px;
+  margin-left: 5px;
+  border: 3px solid green;
+  border-radius: 5px;
 }
